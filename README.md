@@ -1,3 +1,4 @@
+HELLO
 # Instructions
 
 Hey There! Welcome to homework 2 of the Rails Decal. This week we'll have covered routes (more in depth), simple ruby syntax, and basic CRUD statements.
