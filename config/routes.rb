@@ -5,7 +5,8 @@ Rails.application.routes.draw do
   root 'pages#home' 
   get 'stringify' => 'pages#stringify'
   post 'stringify' => 'pages#stringify'
-  get 'age', to: 'pages#age'
+  get 'age' => 'pages#person'
+  puts 'age' => 'pages#age'
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 
