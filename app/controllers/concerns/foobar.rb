@@ -4,6 +4,6 @@ class Foobar
   end
 
   def bar(a, optional={})
-  	return "#{a}#{@name}#{optional[sat:]}"
+  	return "#{a}#{@name}#{optional[:sat]}"
   end
 end
