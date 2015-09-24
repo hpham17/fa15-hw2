@@ -5,7 +5,11 @@ class Person
 		@nickname = name[0..3]
 	end
 
-	def birth_year(age)
+	def introduce()
+		return "#{@name} #{age}"
+	end
+	
+	def birth_year()
 		return 2015-age
 	end 
 
