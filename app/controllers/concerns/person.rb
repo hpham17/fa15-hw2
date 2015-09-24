@@ -10,7 +10,7 @@ class Person
 	end
 
 	def birth_year()
-		return 2015-age
+		return 2015-@age
 	end 
 
 	def nickname
