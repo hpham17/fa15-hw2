@@ -3,7 +3,7 @@ class Foobar
   	@name = name
   end
 
-  def bar(optional={})
-  	return "#{@name}#{optional[:sat]}"
+  def bar(a, optional={})
+  	return "#{a}#{@name}#{optional[sat:]}"
   end
 end
