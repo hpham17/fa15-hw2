@@ -15,7 +15,7 @@ class PagesController < ApplicationController
   	@introduce = foo.introduce
   	@nickname = foo.nickname
   	@birth = foo.birth_year
-  	render 'pages#person'
+  	render 'pages/person'
   end
 
   def person
