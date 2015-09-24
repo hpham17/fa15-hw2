@@ -6,9 +6,9 @@ class Person
 	end
 
 	def introduce()
-		return "#{@name} #{age}"
+		return "#{@name} #{@age}"
 	end
-	
+
 	def birth_year()
 		return 2015-age
 	end 
